@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+/* Joke.css */
+
+body {
+	background-image: url('./bg1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-color: rgb(47, 97, 80); */
+}
+
+.joke {
+	width: auto;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: beige;
+}
+
+h1 {
+	text-align: center;
+	color: beige;
+}
+
+/* Button.css */
+
+button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #70a03a;
+	color: #ffffff;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: background-color .5s;
+}
+
+button:hover {
+	background-color: #c1f590;
+}
+
+button:active {
+	background-image: url('./bg.jpg');
+	/* background-color: #297910; */
+}
+
